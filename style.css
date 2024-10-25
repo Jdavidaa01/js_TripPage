@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: rgb(4, 99, 4);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    margin-top: 10px;
+    padding-top: 10px;
+    display: block;
+    color: whitesmoke;
+    padding: 8px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+li a.active {
+    background-color: green;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color:green;
+    color:white;
+}
+.container{
+    margin-left: 25%;
+    padding: 30px;
+    background-color:whitesmoke;
+    height: 95vh;
+}
+#title{
+    color:green;
+    margin: 0;
+    align-items: center;
+    align-content: center;
+}
